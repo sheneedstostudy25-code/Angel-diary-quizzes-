@@ -112,3 +112,140 @@ footer{max-width:1120px;margin:auto;padding:22px;color:#a38e99;font-size:9px;let
   .question-card{padding:22px}.result-actions{grid-template-columns:1fr}
   footer{margin:0 16px;gap:15px;flex-direction:column}
 }
+/* ANGEL DIARY QUIZ SCREEN */
+
+#angelQuizScreen {
+    display: none;
+    min-height: 100vh;
+    padding: 40px 20px;
+    background: #fff8fb;
+}
+
+.angel-quiz-box,
+.angel-result-box {
+    max-width: 700px;
+    margin: 40px auto;
+    padding: 35px 25px;
+    background: white;
+    border: 1px solid #ead9e1;
+    border-radius: 24px;
+    text-align: center;
+}
+
+.back-button {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+
+.quiz-progress,
+.result-label,
+.result-small {
+    letter-spacing: 3px;
+    font-size: 12px;
+    color: #ad7b96;
+    margin-bottom: 20px;
+}
+
+.angel-quiz-box h1 {
+    font-family: Georgia, serif;
+    font-size: 32px;
+    margin-bottom: 35px;
+}
+
+.angel-quiz-box h2 {
+    font-size: 22px;
+    margin-bottom: 25px;
+}
+
+.answer-list {
+    display: grid;
+    gap: 12px;
+}
+
+.answer-button {
+    width: 100%;
+    padding: 16px;
+    background: #fff8fb;
+    border: 1px solid #ead9e1;
+    border-radius: 14px;
+    cursor: pointer;
+    font-size: 15px;
+    transition: 0.2s;
+}
+
+.answer-button:hover {
+    transform: translateY(-2px);
+}
+
+.start-button {
+    padding: 14px 22px;
+    border: none;
+    border-radius: 30px;
+    background: #d88aaa;
+    color: white;
+    cursor: pointer;
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+
+.card-image img,
+.result-image img {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    border-radius: 18px;
+}
+
+.image-placeholder {
+    min-height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 18px;
+    background: #fff5f9;
+    color: #b58ca1;
+    letter-spacing: 2px;
+}
+
+.result-image {
+    max-width: 400px;
+    margin: 0 auto 25px;
+}
+
+.angel-result-box h1 {
+    font-family: Georgia, serif;
+    font-size: 40px;
+    margin: 10px 0 20px;
+}
+
+.result-text {
+    max-width: 500px;
+    margin: 0 auto 25px;
+    line-height: 1.7;
+}
+
+.fan-note {
+    font-size: 11px;
+    color: #999;
+    margin: 25px auto;
+    max-width: 500px;
+}
+
+@media (max-width: 600px) {
+    .angel-quiz-box,
+    .angel-result-box {
+        margin: 15px auto;
+        padding: 25px 18px;
+    }
+
+    .angel-quiz-box h1 {
+        font-size: 26px;
+    }
+
+    .angel-result-box h1 {
+        font-size: 32px;
+    }
+}
