@@ -371,6 +371,13 @@ function startQuiz(id) {
 }
 
 function showQuizScreen() {
+    const home = document.getElementById("home");
+
+    if (home) {
+        home.classList.remove("active");
+        home.style.display = "none";
+    }
+
     let screen = document.getElementById("angelQuizScreen");
 
     if (!screen) {
@@ -381,8 +388,10 @@ function showQuizScreen() {
 
     screen.style.display = "block";
 
+    // Start the quiz at the top
+    window.scrollTo(0, 0);
+
     renderQuestion();
-    screen.scrollIntoView({ behavior: "smooth" });
 }
 
 function renderQuestion() {
