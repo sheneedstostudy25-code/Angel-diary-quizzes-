@@ -201,7 +201,7 @@ const quizzes = [
     number: "03",
     title: "Would Sunghoon Date You? Are You His Type?",
     short: "A playful compatibility test inspired by public-facing traits. No crystal ball required.",
-    image: "",
+    image: "image/sunghoon.jpg",
     intro: "This is entertainment, not a factual prediction of Sunghoon's private preferences. We use broad public-facing traits and your answers to create a fictional compatibility result.",
     questions: [
       {
@@ -286,10 +286,10 @@ const quizzes = [
         q: "Your main-character energy is...",
         options: [
           ["Confident and polished", "daniela"],
-          ["Warm and approachable", "larax"],
+          ["Warm and approachable", "lara"],
           ["Quietly cool", "manon"],
           ["Playful and bold", "sophia"],
-          ["Creative and expressive", "meyla"],
+          ["Creative and expressive", "megan"],
           ["Elegant and focused", "yoonchae"]
         ]
       },
@@ -297,10 +297,10 @@ const quizzes = [
         q: "Pick your dream weekend.",
         options: [
           ["Dance, friends and getting dressed up", "daniela"],
-          ["A cozy hangout with people I love", "larax"],
+          ["A cozy hangout with people I love", "lara"],
           ["City exploring with a killer outfit", "manon"],
           ["Trying something new with friends", "sophia"],
-          ["Making art/content and taking photos", "meyla"],
+          ["Making art/content and taking photos", "megan"],
           ["Quiet reset + practicing a skill", "yoonchae"]
         ]
       },
@@ -308,10 +308,10 @@ const quizzes = [
         q: "Choose an outfit vibe.",
         options: [
           ["Glam + statement pieces", "daniela"],
-          ["Soft + effortless", "larax"],
+          ["Soft + effortless", "lara"],
           ["Model-off-duty", "manon"],
           ["Sporty + fun", "sophia"],
-          ["Experimental + artsy", "meyla"],
+          ["Experimental + artsy", "megan"],
           ["Clean + elegant", "yoonchae"]
         ]
       },
@@ -319,10 +319,10 @@ const quizzes = [
         q: "What do people notice first?",
         options: [
           ["My confidence", "daniela"],
-          ["My friendliness", "larax"],
+          ["My friendliness", "lara"],
           ["My aura", "manon"],
           ["My energy", "sophia"],
-          ["My creativity", "meyla"],
+          ["My creativity", "megan"],
           ["My calmness", "yoonchae"]
         ]
       },
@@ -330,10 +330,10 @@ const quizzes = [
         q: "Your dream social media feed is...",
         options: [
           ["Glam edits + performance clips", "daniela"],
-          ["Friends + soft lifestyle moments", "larax"],
+          ["Friends + soft lifestyle moments", "lara"],
           ["Fashion + cinematic photos", "manon"],
           ["Funny videos + adventures", "sophia"],
-          ["Art, moodboards and unusual finds", "meyla"],
+          ["Art, moodboards and unusual finds", "megan"],
           ["Minimal photos + polished details", "yoonchae"]
         ]
       }
@@ -343,7 +343,7 @@ const quizzes = [
       larax: {name:"LARA", image:"", score:95, text:"Your vibe is warm, easygoing and naturally magnetic. You make people feel comfortable while still having your own style."},
       manon: {name:"MANON", image:"", score:96, text:"You give cool, composed and effortlessly stylish energy. Your aesthetic does not need to shout to be noticed."},
       sophia: {name:"SOPHIA", image:"", score:94, text:"You bring playful confidence and social energy. You seem like the friend who can turn a normal plan into an entire event."},
-      meyla: {name:"MEYLA", image:"", score:93, text:"Your vibe is creative, expressive and a little unpredictable. You like having your own point of view rather than following the template."},
+      meyla: {name:"MEGAN", image:"", score:93, text:"Your vibe is creative, expressive and a little unpredictable. You like having your own point of view rather than following the template."},
       yoonchae: {name:"YOONCHAE", image:"", score:95, text:"You give a polished, focused and quietly elegant vibe. Your energy feels thoughtful, composed and intentional."}
     }
   },
@@ -353,7 +353,7 @@ const quizzes = [
     number: "05",
     title: "Which ENHYPEN Member's Type Are You?",
     short: "See which ENHYPEN personality style best fits your answers.",
-    image: "",
+    image: "image/Enhypen.jpg",
     intro: "This is a fan-made entertainment quiz. It does not claim to know or reproduce any member's private ideal type.",
     questions: [
       {
@@ -418,13 +418,13 @@ const quizzes = [
       }
     ],
     results: {
-      jungwon: {name:"JUNGWON'S TYPE", image:"", score:96, text:"Your answers lean toward sincerity, stability and quiet confidence. In this fan-made quiz, that puts you closest to a personality style associated with grounded, dependable chemistry."},
-      jay: {name:"JAY'S TYPE", image:"", score:94, text:"You're independent, passionate and action-oriented. Your strongest compatibility vibe is someone who values effort, loyalty and people with their own goals."},
-      jake: {name:"JAKE'S TYPE", image:"", score:95, text:"You give warm, friendly and genuine energy. Your result suggests your biggest strength is making a relationship feel comfortable and natural."},
-      sunghoon: {name:"SUNGHOON'S TYPE", image:"", score:97, text:"You give composed, elegant and slightly mysterious energy. Your answers suggest you value subtle chemistry, confidence and mutual respect."},
-      sunoo: {name:"SUNOO'S TYPE", image:"", score:96, text:"You're expressive, affectionate and bright. Your result points toward chemistry built on communication, warmth and making each other feel seen."},
-      niki: {name:"NI-KI'S TYPE", image:"", score:93, text:"You're energetic, confident and passionate. Your strongest match is someone who enjoys playful competition, movement and a little chaos."},
-      heeseung: {name:"HEESEUNG'S TYPE", image:"", score:95, text:"You're thoughtful, creative and interesting to talk to. Your result suggests your strongest quality is having depth beyond first impressions."}
+      jungwon: {name:"JUNGWON'S TYPE", image:"image/jungwon.jpg", score:96, text:"Your answers lean toward sincerity, stability and quiet confidence. In this fan-made quiz, that puts you closest to a personality style associated with grounded, dependable chemistry."},
+      jay: {name:"JAY'S TYPE", image:"image/jay.jpg", score:94, text:"You're independent, passionate and action-oriented. Your strongest compatibility vibe is someone who values effort, loyalty and people with their own goals."},
+      jake: {name:"JAKE'S TYPE", image:"image/jake.jpg", score:95, text:"You give warm, friendly and genuine energy. Your result suggests your biggest strength is making a relationship feel comfortable and natural."},
+      sunghoon: {name:"SUNGHOON'S TYPE", image:"image/sunghoon.jpg", score:97, text:"You give composed, elegant and slightly mysterious energy. Your answers suggest you value subtle chemistry, confidence and mutual respect."},
+      sunoo: {name:"SUNOO'S TYPE", image:"image/sunoo.jpg", score:96, text:"You're expressive, affectionate and bright. Your result points toward chemistry built on communication, warmth and making each other feel seen."},
+      niki: {name:"NI-KI'S TYPE", image:"image/niki.jpg", score:93, text:"You're energetic, confident and passionate. Your strongest match is someone who enjoys playful competition, movement and a little chaos."},
+      heeseung: {name:"HEESEUNG'S TYPE", image:"image/heeseung.jpg", score:95, text:"You're thoughtful, creative and interesting to talk to. Your result suggests your strongest quality is having depth beyond first impressions."}
     }
   }
 ];
