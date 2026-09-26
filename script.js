@@ -496,14 +496,19 @@ function showResult() {
 
 function closeQuiz() {
     const screen = document.getElementById("angelQuizScreen");
+    const home = document.getElementById("home");
 
     if (screen) {
         screen.style.display = "none";
     }
 
-    window.scrollTo({ top: 0, behavior: "smooth" });
-}
+    if (home) {
+        home.style.display = "";
+        home.classList.add("active");
+    }
 
+    window.scrollTo(0, 0);
+}
 document.addEventListener("DOMContentLoaded", () => {
     renderHome();
 });
