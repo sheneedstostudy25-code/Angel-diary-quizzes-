@@ -477,7 +477,21 @@ function showResult() {
         </div>
     `;
 
-    window.scrollTo({ top: 0, behavior: "smooth" });
+    function chooseAnswer(answer) {
+    answers.push(answer);
+
+    if (currentQuestion < currentQuiz.questions.length - 1) {
+        currentQuestion++;
+
+        renderQuestion();
+
+        // Keep the user inside the quiz.
+        // Do NOT jump back to the homepage.
+        window.scrollTo(0, 0);
+
+    } else {
+        showResult();
+    }
 }
 
 function closeQuiz() {
