@@ -98,31 +98,31 @@ const quizzes = [
     ],
     results: {
       jungwon: {
-        name: "JUNGWON", image: "", score: 96,
+        name: "JUNGWON", image: "image/jungwon.jpg", score: 96,
         text: "You matched with Jungwon's calm, dependable relationship energy. Your choices suggest you value patience, consistency and a partner who can be both gentle and quietly confident."
       },
       jay: {
-        name: "JAY", image: "", score: 94,
+        name: "JAY", image: "image/jay.jpg", score: 94,
         text: "You matched with Jay's thoughtful, practical energy. You seem drawn to effort, loyalty, good taste and someone who shows care through actions."
       },
       jake: {
-        name: "JAKE", image: "", score: 95,
+        name: "JAKE", image: "image/jake.jpg", score: 95,
         text: "You matched with Jake's warm, easygoing energy. You want a relationship that feels comfortable, affectionate and full of little adventures."
       },
       sunghoon: {
-        name: "SUNGHOON", image: "", score: 97,
+        name: "SUNGHOON", image: "image/sunghoon.jpg", score: 97,
         text: "You matched with Sunghoon's composed, elegant energy. Your answers point toward someone who likes quiet chemistry, respect and a little mysterious charm."
       },
       sunoo: {
-        name: "SUNOO", image: "", score: 95,
+        name: "SUNOO", image: "image/sunoo.jpg", score: 95,
         text: "You matched with Sunoo's bright and affectionate energy. You seem to want warmth, expressive affection, fun conversations and a relationship that feels alive."
       },
       niki: {
-        name: "NI-KI", image: "", score: 93,
+        name: "NI-KI", image: "image/niki.jpg", score: 93,
         text: "You matched with Ni-Ki's playful, energetic energy. You probably need someone who keeps you laughing, challenges you and brings movement into your life."
       },
       heeseung: {
-        name: "HEESEUNG", image: "", score: 94,
+        name: "HEESEUNG", image: "image/heeseung.jpg", score: 94,
         text: "You matched with Heeseung's creative, thoughtful energy. Your choices suggest you value talent, shared interests and conversations that go beyond small talk."
       }
     }
