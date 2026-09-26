@@ -20,7 +20,7 @@ const quizzes = [
     number: "01",
     title: "Your ENHYPEN Husband Is... Who?",
     short: "Your choices reveal which ENHYPEN member best matches your relationship vibe.",
-    image: "image/Enhypen.jpg",
+    image: "Image/Enhypen.jpg",
     intro: "Choose what feels most like you. Your result is a fan-made compatibility match, not a prediction of a real relationship.",
     questions: [
       {
@@ -98,31 +98,31 @@ const quizzes = [
     ],
     results: {
       jungwon: {
-        name: "JUNGWON", image: "image/jungwon.jpg", score: 96,
+        name: "JUNGWON", image: "Image/jungwon.jpg", score: 96,
         text: "You matched with Jungwon's calm, dependable relationship energy. Your choices suggest you value patience, consistency and a partner who can be both gentle and quietly confident."
       },
       jay: {
-        name: "JAY", image: "image/jay.jpg", score: 94,
+        name: "JAY", image: "Image/jay.jpg", score: 94,
         text: "You matched with Jay's thoughtful, practical energy. You seem drawn to effort, loyalty, good taste and someone who shows care through actions."
       },
       jake: {
-        name: "JAKE", image: "image/jake.jpg", score: 95,
+        name: "JAKE", image: "Image/jake.jpg", score: 95,
         text: "You matched with Jake's warm, easygoing energy. You want a relationship that feels comfortable, affectionate and full of little adventures."
       },
       sunghoon: {
-        name: "SUNGHOON", image: "image/sunghoon.jpg", score: 97,
+        name: "SUNGHOON", image: "Image/sunghoon.jpg", score: 97,
         text: "You matched with Sunghoon's composed, elegant energy. Your answers point toward someone who likes quiet chemistry, respect and a little mysterious charm."
       },
       sunoo: {
-        name: "SUNOO", image: "image/sunoo.jpg", score: 95,
+        name: "SUNOO", image: "Image/sunoo.jpg", score: 95,
         text: "You matched with Sunoo's bright and affectionate energy. You seem to want warmth, expressive affection, fun conversations and a relationship that feels alive."
       },
       niki: {
-        name: "NI-KI", image: "image/niki.jpg", score: 93,
+        name: "NI-KI", image: "Image/niki.jpg", score: 93,
         text: "You matched with Ni-Ki's playful, energetic energy. You probably need someone who keeps you laughing, challenges you and brings movement into your life."
       },
       heeseung: {
-        name: "HEESEUNG", image: "image/heeseung.jpg", score: 94,
+        name: "HEESEUNG", image: "Image/heeseung.jpg", score: 94,
         text: "You matched with Heeseung's creative, thoughtful energy. Your choices suggest you value talent, shared interests and conversations that go beyond small talk."
       }
     }
@@ -201,7 +201,7 @@ const quizzes = [
     number: "03",
     title: "Would Sunghoon Date You? Are You His Type?",
     short: "A playful compatibility test inspired by public-facing traits. No crystal ball required.",
-    image: "image/sunghoon.jpg",
+    image: "Image/sunghoon.jpg",
     intro: "This is entertainment, not a factual prediction of Sunghoon's private preferences. We use broad public-facing traits and your answers to create a fictional compatibility result.",
     questions: [
       {
@@ -353,7 +353,7 @@ const quizzes = [
     number: "05",
     title: "Which ENHYPEN Member's Type Are You?",
     short: "See which ENHYPEN personality style best fits your answers.",
-    image: "image/Enhypen.jpg",
+    image: "Image/Enhypen.jpg",
     intro: "This is a fan-made entertainment quiz. It does not claim to know or reproduce any member's private ideal type.",
     questions: [
       {
@@ -418,13 +418,13 @@ const quizzes = [
       }
     ],
     results: {
-      jungwon: {name:"JUNGWON'S TYPE", image:"image/jungwon.jpg", score:96, text:"Your answers lean toward sincerity, stability and quiet confidence. In this fan-made quiz, that puts you closest to a personality style associated with grounded, dependable chemistry."},
-      jay: {name:"JAY'S TYPE", image:"image/jay.jpg", score:94, text:"You're independent, passionate and action-oriented. Your strongest compatibility vibe is someone who values effort, loyalty and people with their own goals."},
-      jake: {name:"JAKE'S TYPE", image:"image/jake.jpg", score:95, text:"You give warm, friendly and genuine energy. Your result suggests your biggest strength is making a relationship feel comfortable and natural."},
-      sunghoon: {name:"SUNGHOON'S TYPE", image:"image/sunghoon.jpg", score:97, text:"You give composed, elegant and slightly mysterious energy. Your answers suggest you value subtle chemistry, confidence and mutual respect."},
-      sunoo: {name:"SUNOO'S TYPE", image:"image/sunoo.jpg", score:96, text:"You're expressive, affectionate and bright. Your result points toward chemistry built on communication, warmth and making each other feel seen."},
-      niki: {name:"NI-KI'S TYPE", image:"image/niki.jpg", score:93, text:"You're energetic, confident and passionate. Your strongest match is someone who enjoys playful competition, movement and a little chaos."},
-      heeseung: {name:"HEESEUNG'S TYPE", image:"image/heeseung.jpg", score:95, text:"You're thoughtful, creative and interesting to talk to. Your result suggests your strongest quality is having depth beyond first impressions."}
+      jungwon: {name:"JUNGWON'S TYPE", image:"Image/jungwon.jpg", score:96, text:"Your answers lean toward sincerity, stability and quiet confidence. In this fan-made quiz, that puts you closest to a personality style associated with grounded, dependable chemistry."},
+      jay: {name:"JAY'S TYPE", image:"Image/jay.jpg", score:94, text:"You're independent, passionate and action-oriented. Your strongest compatibility vibe is someone who values effort, loyalty and people with their own goals."},
+      jake: {name:"JAKE'S TYPE", image:"Image/jake.jpg", score:95, text:"You give warm, friendly and genuine energy. Your result suggests your biggest strength is making a relationship feel comfortable and natural."},
+      sunghoon: {name:"SUNGHOON'S TYPE", Image:"image/sunghoon.jpg", score:97, text:"You give composed, elegant and slightly mysterious energy. Your answers suggest you value subtle chemistry, confidence and mutual respect."},
+      sunoo: {name:"SUNOO'S TYPE", image:"Image/sunoo.jpg", score:96, text:"You're expressive, affectionate and bright. Your result points toward chemistry built on communication, warmth and making each other feel seen."},
+      niki: {name:"NI-KI'S TYPE", image:"Image/niki.jpg", score:93, text:"You're energetic, confident and passionate. Your strongest match is someone who enjoys playful competition, movement and a little chaos."},
+      heeseung: {name:"HEESEUNG'S TYPE", Image:"image/heeseung.jpg", score:95, text:"You're thoughtful, creative and interesting to talk to. Your result suggests your strongest quality is having depth beyond first impressions."}
     }
   }
 ];
