@@ -20,7 +20,7 @@ const quizzes = [
     number: "01",
     title: "Your ENHYPEN Husband Is... Who?",
     short: "Your choices reveal which ENHYPEN member best matches your relationship vibe.",
-    image: "",
+    image: "image/Enhypen.jpg",
     intro: "Choose what feels most like you. Your result is a fan-made compatibility match, not a prediction of a real relationship.",
     questions: [
       {
