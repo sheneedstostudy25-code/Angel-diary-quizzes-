@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Angel Diary Quizzes — fun K-pop personality and compatibility quizzes.">
+  <title>Angel Diary Quizzes ♡</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="grain"></div>
+
+  <header class="site-header">
+    <a class="brand" href="#" onclick="showHome(); return false;">
+      <span class="brand-wing">୨୧</span>
+      <span>ANGEL DIARY</span>
+      <small>QUIZZES</small>
+    </a>
+    <div class="header-note">a little corner for your delulu thoughts ♡</div>
+  </header>
+
+  <main>
+    <section id="home" class="page active">
+      <div class="hero">
+        <div class="hero-label">♡ WELCOME TO YOUR DIARY</div>
+        <h1>Find your <em>K-pop</em><br>match.</h1>
+        <p>Pick a quiz, answer honestly... or answer strategically. We won't tell. 🎀</p>
+      </div>
+
+      <div class="quiz-grid" id="quizGrid"></div>
+
+      <div class="disclaimer">
+        <strong>♡ little note</strong>
+        These quizzes are fan-made entertainment. Results are fictional/compatibility-style interpretations and do not claim to represent the private preferences, relationships, or opinions of real people.
+      </div>
+    </section>
+
+    <section id="quizPage" class="page">
+      <button class="back-btn" onclick="showHome()">← back to diary</button>
+      <div id="quizMount"></div>
+    </section>
+
+    <section id="resultPage" class="page">
+      <div id="resultMount"></div>
+    </section>
+  </main>
+
+  <footer>
+    <span>ANGEL DIARY ♡ QUIZZES</span>
+    <span>fan-made • for entertainment</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+      </html>
+        
